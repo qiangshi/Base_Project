@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/padding_44"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/padding_0.5">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/color_353535"
+        android:textSize="@dimen/text_font_20" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/padding_32"
+        android:layout_height="@dimen/padding_32"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:paddingStart="@dimen/padding_16"
+        android:src="@drawable/ic_goback"
+        android:visibility="visible" />
+
+    <com.staff.canteen.api.view.SearchBarView
+        android:id="@+id/search_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_32"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding_16"
+        android:layout_marginRight="@dimen/padding_16"
+        android:layout_toStartOf="@+id/tv_right_btn"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_search"
+        android:layout_width="@dimen/padding_20"
+        android:layout_height="@dimen/padding_20"
+        android:layout_toStartOf="@+id/btn_car_shopping"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/padding_16"
+        android:src="@drawable/me_modify_iconxhdpi"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/btn_car_shopping"
+        android:layout_width="@dimen/padding_20"
+        android:layout_height="@dimen/padding_20"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/padding_16"
+        android:src="@drawable/me_modify_iconxhdpi"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingEnd="@dimen/padding_10"
+        android:singleLine="true"
+        android:text="@string/commit"
+        android:textColor="@color/color_4E7CFE"
+        android:textSize="@dimen/text_font_16"
+        android:visibility="gone" />
+
+</RelativeLayout>

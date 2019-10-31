@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">base_project</string>
+
+    <integer name="loading_anim">100</integer>
+    <integer name="animation_default_duration">300</integer>
+
+    <!--main-->
+    <string name="home">首页</string>
+    <string name="mine">我的</string>
+    <string name="order_search">订单查询</string>
+    <string name="build_info">楼宇信息</string>
+    <string name="add">添加</string>
+
+
+    <!--splash   login-->
+    <string name="please_open_read_write_permission">请您打开我们需要的存储权限</string>
+    <string name="login_user">登录您的账号</string>
+    <string name="please_in_phone">请输入您的手机号</string>
+    <string name="please_new_phone">请输入您的新手机号</string>
+    <string name="please_in_code">请输入验证码</string>
+    <string name="get_phone_code">获取验证码</string>
+    <string name="login">登录</string>
+    <string name="user_agreement">《用户相关协议》</string>
+    <string name="used_read_agree">已阅读并同意</string>
+    <string name="hint_input_phone_num">请输入手机号</string>
+    <string name="msg_phone_num_error">手机号输入有误，请重新输入</string>
+    <string name="msg_verification_code_error">验证码错误，请重新输入</string>
+    <string name="btn_re_send_code">重新发送</string>
+    <string name="read_user_agreement">请阅读用户协议并同意</string>
+    <string name="please_get_code">请重新获取验证码</string>
+    <string name="get_success">获取成功</string>
+    <string name="again_pass_logout_app">再按一退出程序</string>
+
+
+    <!--tool -->
+    <string name="commit">提交</string>
+    <string name="input_end_time_error">结束时间必须大于开始时间</string>
+    <string name="input_start_time_error">开始时间必须小于结束时间</string>
+    <string name="input_hint_time_error">提醒时间必须小于截止时间</string>
+    <string name="input_close_time_error">截止时间必须大于结束时间</string>
+    <string name="commit_success">提交成功</string>
+
+
+
+
+    <string-array name="gender_sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+
+
+    <string name="confirm">确定</string>
+    <string name="search">搜索</string>
+    <string name="cancel">取消</string>
+    <string name="finish_task">结束任务</string>
+    <string name="edit_task">编辑任务</string>
+    <string name="delete_task">删除任务</string>
+
+    <!--mine-->
+    <string name="modify_info">修改资料</string>
+    <string name="time_bean">时间豆</string>
+    <string name="my_company">我的企业</string>
+    <string name="face_back">意见与反馈</string>
+    <string name="set">设置</string>
+    <string name="my_info">个人信息</string>
+    <string name="user_head">头像</string>
+    <string name="nick_name">昵称</string>
+    <string name="phone_code">手机号</string>
+    <string name="gender">性别</string>
+    <string name="birthday">出生日期</string>
+    <string name="preservation">保存</string>
+    <string name="preservation_success">保存成功</string>
+    <string name="modify_phone_code">修改手机号</string>
+    <string name="please_input_feedback_content">请输入反馈内容</string>
+    <string name="contact_email_text">请输入邮箱或联系电话</string>
+    <string name="msg_remind">消息提醒</string>
+    <string name="about_our">关于我们</string>
+    <string name="link_our">联系我们</string>
+    <string name="user_argument">用户协议</string>
+    <string name="private_policy">隐私策略</string>
+    <string name="clear_cpu">清空缓存</string>
+    <string name="check_update">检查更新</string>
+    <string name="used_update_news">已更新到最新</string>
+    <string name="service_phone">客服电话</string>
+    <string name="company_email_code">service@punch_card.com</string>
+    <string name="company_email">企业邮箱</string>
+    <string name="select_email">请选择邮件类应用</string>
+    <string name="email_title">请输入邮件主题</string>
+    <string name="email_body">请输入你想要发送的邮件内容</string>
+    <string name="dial">拨打</string>
+    <string name="this_service_tel">4006503615</string>
+    <string name="please_open_phone_permission">请您打开我们需要的电话权限</string>
+    <string name="msg_open">消息通知已打开</string>
+    <string name="msg_close">消息通知已关闭</string>
+    <string name="clear_success">清除成功</string>
+
+
+    <string name="log_out">退出</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
